@@ -13,30 +13,37 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "14850741",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "e4e058636be1e24a7c20e681d7178694",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "value": "",
             "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "value": "",
             "required": true
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
+            "value": "",
             "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "value": "",
             "required": true                              
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "value": "",
             "required": false
         },           
         "MAX_RIST_BTNS": {
@@ -51,6 +58,7 @@
         },
         "DATABASE_URI": {
             "description": "mongoDB URI.",
+            "value": "",
             "required": true
         },
         "DATABASE_NAME": {
@@ -70,7 +78,7 @@
         },
         "IMDB": {
             "description": "Imdb, the view of information when making True/False",
-            "value": "True",
+            "value": "False",
             "required": false     
         },
         "IMDB_TEMPLATE": {
@@ -130,7 +138,7 @@
         },
         "BUTTON_LOCK": {
             "description": "Button alert set True to on / False to off",
-            "value": "True",
+            "value": "False",
             "required": false
         },
         "RemoveBG_API": {
